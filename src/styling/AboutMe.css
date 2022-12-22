@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Modak&family=Titan+One&display=swap');
+
+.aboutMeContainer {
+    height: 100vh;
+    background-color: #DD02FE;
+    color: white;
+}
+
+.aboutTransition {
+    height: 3rem;
+}
+
+.aboutSection {
+    display: flex;
+    text-align: center;
+}
+
+.imgSide {
+    height: 45rem;
+    background-size: cover;
+    background-position: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.aboutText {
+    line-height: 2.5rem;
+    margin-top: 2rem;
+    text-align: justify;
+
+}
+
+.aboutTitle {
+    margin-top: 5rem;
+    font-family: 'Modak', cursive;
+    font-size: 70px;
+    text-align: center;
+    color: #407BFF;
+}
+
+.aboutPara {
+    margin: 0rem 4rem;
+    margin-top: 2rem;
+
+}
+
+.aboutBottom {
+    margin-top: 1.5rem;
+}
+
+.aboutBottom > hr {
+    margin: 1rem 10rem;
+}
+
+.skills {
+    margin-top: 1.5rem;
+    color: brown;
+}
+
+.skillsContainer {
+    margin-top: 3.5rem;
+    margin-left: 2rem;
+}
+
+.skillsOne, .skillsTwo {
+    display: flex;
+    justify-content: center;
+}
+
+.aboutIcons {
+    width: 3rem;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.upper {
+    margin: 0rem 1.5rem;
+} 
+
+.lower {
+    margin: 0rem 1.5rem;
+    margin-top: 1rem;
+}
+
+.spacing {
+    margin-bottom: 2rem;
+}
+
+.aboutArrowSection {
+    /* margin-bottom: -10rem; */
+    background-color: rgb(227, 195, 227);
+    margin: 0rem 46.5rem;
+    margin-top: -6rem;
+    border-radius: 25px;
+    height: 1.9rem;
+    text-align: center;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    animation: arrow 4s infinite;
+}
+
+@keyframes arrow {
+    /* 0% {margin-top: -7rem;} */
+    50% {margin-top: -5rem;}
+    50% {margin-top: -7.5rem;}
+}
+
+.aboutArrow {
+    color: white;
+    text-align: center;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-top: 0.3rem;
+    color: rgb(209, 59, 229);
+}

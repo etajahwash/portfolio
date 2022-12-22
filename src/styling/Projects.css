@@ -1,0 +1,197 @@
+.projectsContainer {
+    height: 100vh;
+    background-color: #4900D5;
+}
+
+.letters {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-top: 1rem;
+    color: white;
+    font-family: 'Titan One', cursive;
+}
+
+.letters > h1 {
+    margin: 0rem 1.5rem;
+    font-size: 70px;
+}
+
+.projectRight {
+    transform: rotate(20deg);
+    animation: rights 4s infinite;
+}
+
+@keyframes rights {
+    0% {transform: rotate(20deg);}
+    50% {transform: rotate(-20deg);}
+    100% {transform: rotate(20deg);}
+}
+
+.projectLeft {
+    transform: rotate(-20deg);
+    animation: lefts 4s infinite;
+}
+
+@keyframes lefts {
+    0% {transform: rotate(-20deg);}
+    50% {transform: rotate(20deg);}
+    100% {transform: rotate(-20deg);}
+}
+
+.r, .c {
+    color: rgb(238, 200, 8);
+}
+
+.o, .t {
+    color: rgb(104, 190, 252);
+}
+
+.j, .s {
+    color: rgb(112, 16, 156);
+}
+
+.p, .e {
+    color: rgb(237, 66, 149);
+}
+
+.projectsSection {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    text-align: center;
+    margin-top: 2.5rem;
+    color: white;
+}
+
+.ncSection, .cdSection, .twdSection {
+    height: 32.25rem;
+    text-align: center;
+}
+
+.projectTitle {
+    font-family: 'Modak', cursive;
+
+}
+
+.gifs {
+    height: 13rem;
+    margin: 0rem 3rem;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.gbOne {
+    background-color: rgb(237, 66, 149);
+}
+
+.gbTwo {
+    background-color: rgb(180, 66, 237);
+}
+
+.gbThree {
+    background-color: rgb(66, 74, 237);
+}
+
+.gifsBottom {
+    text-align: justify;
+    margin: 0rem 3rem;
+    color: rgb(15, 14, 15);
+    height: 15rem;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    z-index: 1
+}
+
+.gifText {
+    margin: 0rem 2rem;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.largeText {
+    font-size: 20px;
+}
+
+.lowestHalf {
+    margin: 0rem 2rem;
+    margin-top: 1.5rem;
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.gifsBottom > p {
+    color: white;
+}
+
+.projectUL {
+    display: flex;
+    margin-left: -0.8rem;
+    animation: coded 5s infinite;
+    color: violet;
+}
+
+.projectFirst, .projectSecond {
+    font-size: 15px;
+}
+
+.gifLeft > h4, .repoContainer > h4 {
+    font-weight: 600;
+}
+
+@keyframes coded {
+    0% {color: violet}
+    50% {color: white}
+    75% {color: violet}
+    
+}
+
+.projectFirst {
+    margin-right: 2.5rem
+}
+
+.repoContainer {
+    justify-content: center;
+    text-align: center;
+}
+
+.repoContainer > h4 {
+    margin-bottom: 1.5rem;
+}
+
+.projectGit {
+    width: 3rem;
+}
+
+.projectArrowSection {
+    /* margin-bottom: -10rem; */
+    background-color: rgb(227, 195, 227);
+    margin-left: 92.5rem;
+    margin-right: 0.5rem;
+    margin-top: -1.5rem;
+    border-radius: 25px;
+    height: 1.9rem;
+    text-align: center;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    animation: pArrow 4s infinite;
+    z-index: 98;
+}
+
+@keyframes pArrow {
+    /* 0% {margin-top: -3;} */
+    50% {margin-top: 0rem;}
+    50% {margin-top: -3rem;}
+}
+
+.projectArrow {
+    color: white;
+    text-align: center;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-top: 0.3rem;
+    color: rgb(209, 59, 229);
+    z-index: 97;
+}

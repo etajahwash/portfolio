@@ -1,0 +1,109 @@
+.contactContainer {
+    height: 100vh;
+    background-color: #0B99FD;
+    text-align: center;
+}
+
+.contactTransition {
+    height: 3rem;
+}
+
+.h1s {
+    margin-top: 5rem;
+    margin-left: -35rem;
+    color: white;
+}
+
+.h1s > h1 {
+    font-size: 60px;
+    font-family: 'Modak', cursive;
+    background: linear-gradient(90deg, plum 40%, #142585 100%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.contactLike {
+    margin-left: -2rem;
+}
+
+.contactMe {
+    /* margin-left: 3rem; */
+    margin-top: 1.5rem;
+}
+
+.formContainer {
+    margin-left: 4rem;
+    margin-top: -2rem;
+    padding: 2rem 0rem;
+    width: 35rem;
+    background-color: rgb(192, 160, 221);
+    border-radius: 20px;
+}
+
+.formContainer > form > input {
+    border-radius: 20px;
+    border: none;
+    margin: 0rem 2rem;
+    margin-top: 1.5rem;
+    padding: 0.5rem;
+    text-align: center;
+    animation: colortext 3s infinite;
+
+}
+
+.messageBox {
+    width: 25rem; 
+    resize: none;
+    height: 10rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    border: none;
+    text-indent: 10px;
+    border-radius: 20px;
+    animation: colortext 3s infinite;
+
+}
+
+.contactLower {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: -1rem;
+}
+
+.contactArrowContainer {
+    margin-top: 2rem;
+    margin-left: 9rem;
+    animation: contactArrowContainer 2.5s infinite;
+}
+
+@keyframes contactArrowContainer {
+    0% {margin-left: 18rem;}
+    50% {margin-left: 9rem;}
+    100% {margin-left: 18rem;}
+}
+
+.contactArrow {
+    margin-left: 18rem;
+    color: #FF0F9A;
+    animation: contactArrow 2.5s infinite;
+}
+
+@keyframes contactArrow {
+    0%{color: #FF0F9A}
+    50%{color: white;}
+    100%{color: #FF0F9A} 
+}
+
+.contactButton {
+    border-radius: 20px;
+    padding: 0.5rem 2rem;
+    border: none;
+    background-color: rgb(70, 0, 128);
+    animation: colortext 3s infinite;
+}
+
+@keyframes colortext {
+    0% {color: #FF0F9A;}
+    50% {color: rgb(157, 163, 241);}
+    100% {color: #FF0F9A;}
+}

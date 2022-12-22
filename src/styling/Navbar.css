@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Chivo+Mono:wght@300;400;500;600;800&display=swap');
+
+.navbarContainer {
+    top: 0;
+    position: fixed;
+    width: 100vw;
+    height: 3rem;
+    justify-content: center;
+    text-align: center;
+    font-family: 'Permanent Marker', cursive;
+
+    background-color: #42006C;
+    z-index: 99;
+
+}
+
+.navbarScroll {
+    background-color: #42006C;
+    transition: all 0.5s;
+}
+
+.navbarContainer > ul {
+    display: flex;
+    text-align: center; 
+    justify-content: center;
+    align-items: center; 
+    align-self: center;
+    align-content: center; 
+    list-style: none;
+}
+
+.navbarContainer > ul > li {
+    margin: 0rem 4rem;
+    color: white;
+    margin-top: 0.5rem;
+}
+
+.ulClick > li {
+    cursor: pointer;
+}
+
+.clear {
+    display: none;
+}
+
+.navArrowSection {
+    background-color: rgb(227, 195, 227);
+    border-radius: 25px;
+    height: 2.1rem;
+    text-align: center;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding: 0rem 0.3rem;
+    animation: bottomarrow 4s infinite;
+    position: fixed;
+    bottom: 10px;
+    right: 20px;
+}
+
+@keyframes bottomarrow {
+    0% {bottom: 25px;}
+    50% {bottom: 10px;}
+    100% {bottom: 25px;}
+}
+
+.navArrow {
+    color: white;
+    text-align: center;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-top: 0.3rem;
+    color: rgb(209, 59, 229);
+}
