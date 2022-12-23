@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
 
 .landingPageContainer {
-    /* display: flex; */
     text-align: center;
     text-align: center;
     align-items: center;
@@ -11,21 +10,35 @@
 
 
 .landingTitle {
-    background: -webkit-linear-gradient(rgb(233, 12, 222), rgb(105, 203, 255), rgb(235, 226, 226));
-    -webkit-background-clip: text;
+    background: -webkit-linear-gradient(rgb(223, 145, 247) , rgb(78, 63, 216) 90%);
+    background-clip: text;
     -webkit-text-fill-color: transparent;
     font-size: 80px;
+    padding-bottom: 10.5rem;
+
+}
+
+.landingLetters {
+    background: -webkit-linear-gradient(45deg, rgb(172, 35, 196), rgb(105, 203, 255));
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: flex;
+    text-align: center;
+    justify-content: center;
     padding-top: 15rem;
-    padding-bottom: 14rem;
-
 }
 
-
-.landingHello {
-    color: plum;
-    background: none;
-
+.landingLetters > h1 {
+    animation: spacingLetters 5s infinite ;
+    font-size: 130px;
 }
+
+@keyframes spacingLetters {
+    0% {padding-left: 20px;}
+    50% {padding-right: 40px;}
+    100% {padding-left: 20px;}
+}
+
 
 .landing {
     text-align: center;
@@ -33,9 +46,21 @@
     justify-content: center;
 }
 
+.sideBar {
+    position: fixed;
+    right: 0;
+    top: 19.5rem;
+    background: -webkit-linear-gradient(90deg, rgb(223, 145, 247) , rgb(78, 63, 216));
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.sideIcons {
+    width: 1.5rem;
+    height: 3rem;
+}
+
 .landingArrowSection {
-    /* margin-bottom: -10rem;
-    margin-top: 13rem; */
     background-color: rgb(227, 195, 227);
     margin: 0rem 46.5rem;
     border-radius: 25px;

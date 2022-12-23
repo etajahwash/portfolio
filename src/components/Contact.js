@@ -1,6 +1,7 @@
 import React from 'react'
 import '../styling/Contact.css'
 import contact from '../imgs/pink3.jpg'
+import flower from '../imgs/violet.png'
 import EastIcon from '@mui/icons-material/East';
 const iconButtonStyles = {
   width: '10rem',
@@ -26,6 +27,11 @@ export default function Contact() {
       </div>
       <div className='formContainer'>
           <form className='contactForm' method='POST' action='https://formsubmit.co/etajahwash@gmail.com'>
+            <div className='flowerSection'>
+              <img alt='flower' src={flower} className='miniFlower' />
+              <img alt='flower' src={flower} className='flower' /><br/>
+              <img alt='flower' src={flower} className='miniFlower' />
+            </div><br/>
             <input className='firstInput' type='text' name='name' placeholder='Name' required />
             <input type='email' name='email' placeholder='Email' required /><br/>
             <textarea className='messageBox' type='text' name='message' placeholder='Write your message here!' required />

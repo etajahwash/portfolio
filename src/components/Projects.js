@@ -33,6 +33,7 @@ export default function Projects() {
       <div className="projectsSection">
         <div className="ncSection">
           <h1 className="projectTitle">NETFLIX CLONE</h1>
+          <a href="https://netflix-clone-34643.web.app/" rel='noreferrer' target="_blank">
           <div
             className="gifs"
             style={{
@@ -42,6 +43,7 @@ export default function Projects() {
               backgroundPosition: "100% 100%",
             }}
           ></div>
+          </a>
           <div className="gifsBottom gbOne">
             <p className="gifText">
               <span className="largeText">E</span>a do proident sint aute labore minim.
@@ -66,13 +68,16 @@ export default function Projects() {
               </div>
               <div className="repoContainer">
                 <h4>Repo</h4>
-                <img className='projectGit' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                <a href="https://github.com/etajahwash/netflix-clone" rel='noreferrer' target="_blank">
+                <img alt='gitIcon' className='projectGit' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                </a>
               </div>
             </div>
           </div>
         </div>
         <div className="cdSection">
           <h1 className="projectTitle">CREAMY DELIGHTS</h1>
+          <a href='https://creamydelights.onrender.com' rel='noreferrer' target="_blank">
           <div
             className="gifs"
             style={{
@@ -82,6 +87,7 @@ export default function Projects() {
               backgroundPosition: "100% 100%",
             }}
           ></div>
+          </a>
             <div className="gifsBottom gbTwo">
             <p className="gifText">
               <span className="largeText">E</span>a do proident sint aute labore minim.
@@ -106,13 +112,16 @@ export default function Projects() {
               </div>
               <div className="repoContainer">
                 <h4>Repo</h4>
-                <img className='projectGit' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                <a href="https://github.com/etajahwash/creamy-delights" rel='noreferrer' target="_blank">
+                <img alt='gitIcon' className='projectGit' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                </a>
               </div>
             </div>
           </div>
         </div>
         <div className="twdSection">
           <h1 className="projectTitle">THE WITCH'S DEN</h1>
+          <a href="https://the-witchs-den.web.app/" rel='noreferrer' target="_blank">
           <div
             className="gifs"
             style={{
@@ -121,7 +130,8 @@ export default function Projects() {
               backgroundRepeat: "no-repeat",
               backgroundPosition: "100% 100%",
             }}></div>
-                      <div className="gifsBottom gbThree">
+          </a>
+            <div className="gifsBottom gbThree">
             <p className="gifText">
               <span className="largeText">E</span>a do proident sint aute labore minim.
               Ea do proident sint aute labore minim.
@@ -140,7 +150,9 @@ export default function Projects() {
               </div>
               <div className="repoContainer">
                 <h4>Repo</h4>
-                <img className='projectGit' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                <a href="https://github.com/etajahwash/thewitchsden" rel='noreferrer' target="_blank">
+                <img alt='gitIcon' className='projectGit' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                </a>
               </div>
             </div>
           </div>
