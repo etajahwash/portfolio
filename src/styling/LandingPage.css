@@ -14,7 +14,7 @@
     background-clip: text;
     -webkit-text-fill-color: transparent;
     font-size: 80px;
-    padding-bottom: 10.5rem;
+    padding-bottom: 9rem;
 
 }
 
@@ -62,10 +62,10 @@
 
 .landingArrowSection {
     background-color: rgb(227, 195, 227);
-    margin: 0rem 46.5rem;
+    margin-left: 50%;
     border-radius: 25px;
     height: 2rem;
-    text-align: center;
+    width: 2rem;
     text-align: center;
     align-items: center;
     justify-content: center;
@@ -86,4 +86,78 @@
     0% {margin-top: 0rem;}
     50% {margin-top: 1rem;}
     50% {margin-top: -1rem;}
+}
+
+
+
+
+
+
+
+/* MEDIA QUERIES */
+
+@media screen and (max-width: 1086px) {
+    .landingTitle {
+       font-size: 60px;
+       margin-bottom: 2rem;
+
+    }
+}
+
+@media screen and (max-width: 799px) {
+    .landingTitle {
+       font-size: 50px;
+       margin-bottom: 7rem;
+    }
+
+    .landingLetters > h1 {
+        font-size: 70px;
+    }
+}
+
+@media screen and (max-width: 678px) {
+    .landingTitle {
+       font-size: 40px;
+       margin-bottom: 9rem;
+    }
+
+    .landingLetters > h1 {
+        font-size: 60px;
+    }
+}
+
+@media screen and (max-width: 641px) {
+    .landingTitle {
+       font-size: 30px;
+       margin-bottom: 9rem;
+    }
+
+    .landingLetters > h1 {
+        font-size: 50px;
+    }
+}
+
+@media screen and (max-width: 472px) {
+    .landingTitle {
+       font-size: 20px;
+       margin-bottom: 9rem;
+    }
+
+    .landingLetters > h1 {
+        font-size: 40px;
+    }
+
+    @keyframes spacingLetters {
+        0% {padding-left: 10px;}
+        50% {padding-right: 20px;}
+        100% {padding-left: 10px;}
+    }
+}
+
+@media screen and (max-width: 281px) {
+    @keyframes spacingLetters {
+        0% {padding-left: 7px;}
+        50% {padding-right: 15px;}
+        100% {padding-left: 7px;}
+    }
 }

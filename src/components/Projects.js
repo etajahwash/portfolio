@@ -31,7 +31,7 @@ export default function Projects() {
         <h1 className="projectLeft s">S</h1>
       </div>
       <div className="projectsSection">
-        <div className="ncSection">
+        <div className="ncSection firstnc">
           <h1 className="projectTitle">NETFLIX CLONE</h1>
           <a href="https://netflix-clone-34643.web.app/" rel='noreferrer' target="_blank">
           <div
@@ -113,6 +113,50 @@ export default function Projects() {
               <div className="repoContainer">
                 <h4>Repo</h4>
                 <a href="https://github.com/etajahwash/creamy-delights" rel='noreferrer' target="_blank">
+                <img alt='gitIcon' className='projectGit' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="ncSection secondnc">
+          <h1 className="projectTitle">NETFLIX CLONE</h1>
+          <a href="https://netflix-clone-34643.web.app/" rel='noreferrer' target="_blank">
+          <div
+            className="gifs"
+            style={{
+              backgroundImage: `url(${netflix})`,
+              backgroundSize: "100% 100%",
+              backgroundRepeat: "no-repeat",
+              backgroundPosition: "100% 100%",
+            }}
+          ></div>
+          </a>
+          <div className="gifsBottom gbOne">
+            <p className="gifText">
+              <span className="largeText">E</span>a do proident sint aute labore minim.
+              Ea do proident sint aute labore minim.
+              Ea do proident sint aute labore minim.
+            </p>
+            <div className="lowestHalf">
+              <div className="gifLeft">
+                <h4>coded with:</h4>
+                <ul className="projectUL">
+                  <div className="projectFirst">
+                  <li>React</li>
+                  <li>JavaScript</li>
+                  <li>Material UI</li>
+                  </div>
+                  <div className='projectSecond'>
+                  <li>Bootstrap</li>
+                  <li>CSS3</li>
+                  <li>HTML5</li>
+                  </div>
+                </ul>
+              </div>
+              <div className="repoContainer">
+                <h4>Repo</h4>
+                <a href="https://github.com/etajahwash/netflix-clone" rel='noreferrer' target="_blank">
                 <img alt='gitIcon' className='projectGit' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
                 </a>
               </div>

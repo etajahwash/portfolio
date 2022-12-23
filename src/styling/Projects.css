@@ -166,13 +166,12 @@
 }
 
 .projectArrowSection {
-    /* margin-bottom: -10rem; */
     background-color: rgb(227, 195, 227);
-    margin-left: 92.5rem;
-    margin-right: 0.5rem;
-    margin-top: -1.5rem;
+    margin-left: 97.5%;
+    margin-top: -2.2rem;
     border-radius: 25px;
     height: 1.9rem;
+    width: 1.9rem;
     text-align: center;
     text-align: center;
     align-items: center;
@@ -196,4 +195,150 @@
     margin-top: 0.3rem;
     color: rgb(209, 59, 229);
     z-index: 97;
+}
+
+.secondnc {
+    display: none;
+}
+
+
+
+
+
+
+
+
+/* MEDIA QUERIES */
+
+@media screen and (max-width: 1387px) {
+    .projectsContainer {
+        height: 80rem;
+    }
+
+    .firstnc {
+        display: none;
+    }
+
+    .secondnc {
+        display: grid;
+    }
+
+    .projectsSection {
+        grid-template-columns: repeat(2, 1fr);
+        margin-left: 12%;
+    }
+
+    .ncSection, .cdSection, .twdSection {
+        height: 32.25rem;
+        text-align: center;
+        margin: 0rem 0rem;
+        width: 25rem;
+    }
+
+    .ncSection {
+        margin-left: -6rem;
+        width: 24.5rem;
+    }
+
+    .twdSection {
+        margin-left: 20rem;
+    }
+
+    .projectArrowSection {
+        margin-top: 1rem;
+        /* margin-bottom: 15rem; */
+        margin-left: 96%;
+    }
+
+    @keyframes pArrow {
+        50% {margin-top: 0rem;}
+        50% {margin-top: -2rem;}
+    }
+}
+
+@media screen and (max-width: 1166px) {
+    .projectsSection {
+        margin-left: 2rem;
+    }
+}
+
+@media screen and (max-width: 1056px) {
+    .projectsSection {
+        margin-left: 1rem;
+    }
+
+    .cdSection {
+        margin-left: 6rem;
+    }
+
+    .ncSection {
+        margin-left: -11rem;
+        margin-top: -0.5rem;
+    }
+
+    .ncSection > a > div {
+        margin-bottom: -0.5rem;
+        margin-left: -0.05rem;
+    }
+}
+
+@media screen and (max-width: 966px) {
+   .projectsSection {
+    margin-left: -2rem;
+   }
+}
+
+@media screen and (max-width: 911px) {
+   .projectsSection {
+    margin-left: -4rem;
+   }
+}
+
+@media screen and (max-width: 876px) {
+   .projectsSection {
+    margin-left: -5rem;
+   }
+}
+
+@media screen and (max-width: 863px) {
+.projectsContainer {
+    height: 109.2rem;
+}
+
+   .projectsSection {
+    grid-template-columns: repeat(1, 1fr);
+    margin: 0;
+    margin-left: 25%;
+   }
+
+   .ncSection, .cdSection, .twdSection {
+    height: 32.25rem;
+    text-align: center;
+    margin: 0rem 0rem;
+    width: 25rem;
+}
+}
+
+@media screen and (max-width: 747px) {
+    .letters > h1 {
+        font-size: 50px;
+        margin-bottom: 2.5rem;
+    }
+}
+
+@media screen and (max-width: 633px) {
+    .letters > h1 {
+        font-size: 30px;
+        margin-bottom: 2.5rem;
+    }
+
+    .projectsSection {
+        margin-left: 19%;
+       }
+}
+
+@media screen and (max-width: 506px) {
+    .projectsSection {
+        margin-left: 10%;
+       }
 }
