@@ -53,6 +53,7 @@
     background: -webkit-linear-gradient(90deg, rgb(223, 145, 247) , rgb(78, 63, 216));
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
+    z-index: 99;
 }
 
 .sideIcons {

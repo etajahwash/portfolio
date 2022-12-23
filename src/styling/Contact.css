@@ -136,3 +136,150 @@
 @keyframes miniflower {
     0% {rotate: -360deg;}
 }
+
+
+
+
+
+
+
+/* MEDIA QUERIES */
+
+@media screen and (max-width: 1510px) {
+    .contactArrow {
+        margin-left: 0rem;
+    }
+}
+
+@media screen and (max-width: 1151px) {
+    .contactArrow {
+        margin-left: 0rem;
+    }
+
+    .contactArrowContainer {
+        display: none;
+    }
+
+    .h1s {
+        margin: 0;
+        padding: 0;
+        margin-top: 1.5rem;
+    }
+
+    .formContainer {
+        margin: 0;
+        margin-left: 17.5rem;
+        margin-top: 1.5rem;      
+    }
+}
+
+@media screen and (max-width: 1020px) {
+    .formContainer {
+        margin-left: 12.5rem;
+    }
+}
+
+@media screen and (max-width: 934px) {
+    .formContainer {
+        margin-left: 10.5rem;
+    }
+}
+
+@media screen and (max-width: 815px) {
+    .formContainer {
+        margin-left: 6.5rem;
+    }
+
+    .contactContainer {
+        height: 100%;
+    }
+}
+
+@media screen and (max-width: 720px) {
+    .formContainer {
+        margin-left: 3.5rem;
+    }
+}
+
+@media screen and (max-width: 645px) {
+    .formContainer {
+        margin-left: 1.5rem;
+    }
+}
+
+@media screen and (max-width: 588px) {
+    .formContainer {
+        margin-left: 3rem;
+        width: 100%;
+    }
+
+    .h1s > h1 {
+        font-size: 40px;
+    }
+}
+
+@media screen and (max-width: 504px) {
+    .formContainer {
+        margin-left: 1.5rem;
+    }
+
+    .h1s > h1 {
+        font-size: 40px;
+    }
+}
+
+@media screen and (max-width: 453px) {
+    .formContainer {
+        margin-left: 0.5rem;
+    }
+
+    .h1s > h1 {
+        font-size: 40px;
+    }
+}
+
+@media screen and (max-width: 419px) {
+    .formContainer {
+        margin-left: 4rem;
+        width: auto;
+    }
+
+    .formContainer > form {
+        margin: auto;
+    }
+
+    .formContainer > form > input {
+        width: auto;
+    }
+
+    .formContainer > form > textarea {
+        width: auto;
+    }
+
+    .h1s > h1 {
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width: 358px) {
+    .formContainer {
+        margin-left: 1.5rem;
+    }
+}
+
+@media screen and (max-width: 314px) {
+    .formContainer {
+        margin-left: 0rem;
+    }
+}
+
+@media screen and (max-width: 292px) {
+    .formContainer {
+        margin-left: 1rem;
+        width: 16rem;
+    }
+
+    .h1s > h1 {
+        font-size: 25px;
+    }
+}
