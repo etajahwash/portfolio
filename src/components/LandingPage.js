@@ -4,6 +4,7 @@ import landingbg from '../imgs/landingbg.jpg'
 import { Typewriter } from 'react-simple-typewriter'
 import KeyboardDoubleArrowDownIcon from '@mui/icons-material/KeyboardDoubleArrowDown';
 import { Link } from 'react-scroll';
+import bigFlower from '../imgs/bigFlower2.png'
 
 export default function LandingPage() {
 
@@ -23,7 +24,7 @@ export default function LandingPage() {
             <h1 className=" lpe">E</h1>
             <h1 className=" lpl">L</h1>
             <h1 className=" lpl2">L</h1>
-            <h1 className=" lpo">O</h1>
+            <img src={bigFlower}  className='landingFlower' alt='big flower' />
           </div>
             <h1 className='landingTitle'>
                   <Typewriter

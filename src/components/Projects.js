@@ -46,9 +46,9 @@ export default function Projects() {
           </a>
           <div className="gifsBottom gbOne">
             <p className="gifText">
-              <span className="largeText">E</span>a do proident sint aute labore minim.
-              Ea do proident sint aute labore minim.
-              Ea do proident sint aute labore minim.
+              <span className="largeText">A</span> React Application utilizing API calling and
+              dynamic user-friendly functionality. Built to provide a sleek and 
+              beautiful UI/UX experience.
             </p>
             <div className="lowestHalf">
               <div className="gifLeft">
@@ -90,9 +90,8 @@ export default function Projects() {
           </a>
             <div className="gifsBottom gbTwo">
             <p className="gifText">
-              <span className="largeText">E</span>a do proident sint aute labore minim.
-              Ea do proident sint aute labore minim.
-              Ea do proident sint aute labore minim.
+              <span className="largeText">F</span>ull Stack application incorporating MERN stack functionality.
+            Provides a fun and interactive user experience while employing full CRUD operations and Stripe checkout.
             </p>
             <div className="lowestHalf">
               <div className="gifLeft">
@@ -134,9 +133,9 @@ export default function Projects() {
           </a>
           <div className="gifsBottom gbOne">
             <p className="gifText">
-              <span className="largeText">E</span>a do proident sint aute labore minim.
-              Ea do proident sint aute labore minim.
-              Ea do proident sint aute labore minim.
+            <span className="largeText">A</span> React Application utilizing API calling and
+              dynamic user-friendly functionality. Built to provide a sleek and 
+              beautiful UI/UX experience.
             </p>
             <div className="lowestHalf">
               <div className="gifLeft">
@@ -177,9 +176,8 @@ export default function Projects() {
           </a>
             <div className="gifsBottom gbThree">
             <p className="gifText">
-              <span className="largeText">E</span>a do proident sint aute labore minim.
-              Ea do proident sint aute labore minim.
-              Ea do proident sint aute labore minim.
+              <span className="largeText">J</span>avaScript application with beautiful CSS3 design and clean
+              HTML5 code. This project was built to provide a fun and interactive user experience.
             </p>
             <div className="lowestHalf">
               <div className="gifLeft">

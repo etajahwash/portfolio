@@ -126,6 +126,22 @@
     color: white;
 }
 
+.gifText {
+    font-size: 15px;
+}
+
+.gbTwo > .gifText {
+    font-size: 15px;
+}
+
+.gbTwo > .lowestHalf  {
+    margin-top: 0.5rem;
+}
+
+.gbThree > .gifText {
+    font-size: 14px;
+}
+
 .projectUL {
     display: flex;
     margin-left: -0.8rem;

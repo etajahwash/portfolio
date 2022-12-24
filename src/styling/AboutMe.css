@@ -81,7 +81,7 @@
 .aboutArrowSection {
     background-color: rgb(227, 195, 227);
     margin-left: 50%;
-    margin-top: -9rem;
+    margin-top: -4rem;
     border-radius: 25px;
     height: 1.9rem;
     width: 1.9rem;
@@ -94,7 +94,7 @@
 
 @keyframes arrow {
     50% {margin-top: -5rem;}
-    50% {margin-top: -7.5rem;}
+    50% {margin-top: -6.5rem;}
 }
 
 .aboutArrow {
