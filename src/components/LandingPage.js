@@ -4,7 +4,7 @@ import landingbg from '../imgs/landingbg.jpg'
 import { Typewriter } from 'react-simple-typewriter'
 import KeyboardDoubleArrowDownIcon from '@mui/icons-material/KeyboardDoubleArrowDown';
 import { Link } from 'react-scroll';
-import bigFlower from '../imgs/bigFlower2.png'
+import bigFlower from '../imgs/bigFlower.png'
 
 export default function LandingPage() {
 
