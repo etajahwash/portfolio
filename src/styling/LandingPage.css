@@ -48,8 +48,12 @@
     width: 8rem;
     height: 8rem;
     margin-top: 1rem;
-    animation: flower 3s infinite;
+    animation: landingFlower 3s infinite;
 }
+
+@keyframes landingFlower {
+        0% {transform: rotate(360deg);}
+    }
 
 
 .landing {
