@@ -8,7 +8,6 @@
     justify-content: center;
     text-align: center;
     font-family: 'Permanent Marker', cursive;
-
     background-color: #42006C;
     z-index: 99;
 
@@ -76,12 +75,14 @@
 
 
 
+
 /* MEDIA QUERIES */
 
 @media screen and (max-width: 703px) {
     .menuSection {
         display: grid;
         justify-content: right;
+        margin-right: 2rem;
     }
 
     .navbarContainer > ul {

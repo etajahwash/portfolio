@@ -5,7 +5,6 @@ import { Link } from 'react-scroll';
 import MenuIcon from '@mui/icons-material/Menu';
 import SwipeableDrawer from '@mui/material/SwipeableDrawer';
 import {
-    Box,
     Divider,
     IconButton,
     List,
@@ -56,7 +55,7 @@ export default function Navbar() {
             <Link to="projects" spy={true} smooth={true} offset={0}>Projects</Link>
             </li>
             <li>
-            <Link to="contact" spy={true} smooth={true} offset={0}>Contact Me</Link>
+            <Link to="contact" spy={true} smooth={true} offset={0} className='contactClass'>Contact Me</Link>
             </li>
         </ul>
         <div className='menuSection'>
@@ -77,9 +76,10 @@ export default function Navbar() {
           >
             <div
               style={{
-                backgroundColor: "palevioletred",
+                backgroundColor: "plum",
                 height: "100vh",
                 width: "10rem",
+                color: '#42006C',
               }}
             >
               <Divider />
@@ -91,7 +91,7 @@ export default function Navbar() {
                 </Link>
                 <Link to="about" spy={true} smooth={true} offset={0}>
                 <ListItemButton onClick={navAbout}>
-                  <ListItemText primary={"About Me"} />
+                  <ListItemText fontFamily='cursive' primary={"About Me"} />
                 </ListItemButton>
                 </Link>
                 <Link to="projects" spy={true} smooth={true} offset={0}>
