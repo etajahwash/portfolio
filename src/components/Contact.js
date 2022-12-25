@@ -3,6 +3,8 @@ import '../styling/Contact.css'
 import contact from '../imgs/pink3.jpg'
 import flower from '../imgs/violet.png'
 import EastIcon from '@mui/icons-material/East';
+import { Link } from 'react-scroll';
+import KeyboardDoubleArrowUpIcon from '@mui/icons-material/KeyboardDoubleArrowUp';
 const iconButtonStyles = {
   width: '10rem',
   height: '10rem',
@@ -40,6 +42,11 @@ export default function Contact() {
           </form>
       </div>
     </div>
+    <Link to="landing" spy={true} smooth={true} offset={0}>
+        <div className='projectArrowSection contactBottomArrow'>
+            <KeyboardDoubleArrowUpIcon className='projectArrow' />
+        </div>
+        </Link>
     </div>
   )
 }

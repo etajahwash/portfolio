@@ -2,23 +2,15 @@ import React from 'react'
 import '../styling/Navbar.css'
 import { useState, useEffect } from 'react'
 import { Link } from 'react-scroll';
-import KeyboardDoubleArrowUpIcon from '@mui/icons-material/KeyboardDoubleArrowUp';
 
 export default function Navbar() {
     const [show, setShow] = useState(false);
-    const [topArrow, setTopArrow] = useState(false);
 
     function navbarTransition() {
         if(window.scrollY > 30) {
             setShow(true)
         } else {
             setShow(false)
-        }
-
-        if(window.scrollY > 2000) {
-            setTopArrow(true)
-        } else {
-            setTopArrow(false)
         }
     }
 
@@ -39,11 +31,6 @@ export default function Navbar() {
             <Link to="contact" spy={true} smooth={true} offset={0}>Contact Me</Link>
             </li>
         </ul>
-        <Link to="landing" spy={true} smooth={true} offset={0}>
-        <div className={topArrow === false ? 'clear' : 'navArrowSection'}>
-            <KeyboardDoubleArrowUpIcon className='navArrow' />
-        </div>
-        </Link>
     </div>
   )
 }

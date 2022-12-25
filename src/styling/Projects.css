@@ -262,7 +262,6 @@
 
     .projectArrowSection {
         margin-top: 1rem;
-        /* margin-bottom: 15rem; */
         margin-left: 96%;
     }
 
@@ -340,6 +339,17 @@
         font-size: 50px;
         margin-bottom: 2.5rem;
     }
+
+    .projectArrowSection {
+        margin-left: 90%;
+        margin-top: -2rem;
+    }
+
+    @keyframes pArrow {
+        /* 0% {margin-top: -3;} */
+        50% {margin-top: 0rem;}
+        50% {margin-top: -4rem;}
+    }
 }
 
 @media screen and (max-width: 633px) {
@@ -353,8 +363,119 @@
        }
 }
 
+@media screen and (max-width: 543px) {
+    .letters > h1 {
+        margin: 0rem 1rem;
+        margin-bottom: 2.5rem;
+    }
+
+    .ncSection, .cdSection, .twdSection {
+        height: 32.25rem;
+        text-align: center;
+        margin: 0rem 0rem;
+        width: 20rem;
+    }
+
+    .gifsBottom > .gifText {
+        font-size: 13px;
+    }
+
+    .lowestHalf {
+        margin-left: 1rem;
+    }
+
+}
+
 @media screen and (max-width: 506px) {
     .projectsSection {
         margin-left: 10%;
        }
+}
+
+@media screen and (max-width: 422px) {
+    .projectArrowSection {
+        margin-left: 90%;
+        margin-top: 0rem;
+    }
+
+    @keyframes pArrow {
+        50% {margin-top: 0rem;}
+        50% {margin-top: -2rem;}
+    }
+
+    .letters > h1 {
+        margin: 0rem 0.5rem;
+        margin-bottom: 2.5rem;
+    }
+}
+
+@media screen and (max-width: 399px) {
+    .projectArrowSection {
+        margin-left: 90%;
+        margin-top: 1rem;
+    }
+
+    @keyframes pArrow {
+        50% {margin-top: 1rem;}
+        50% {margin-top: -1rem;}
+    }
+}
+
+@media screen and (max-width: 373px) {
+    .projectsSection {
+        margin-left: 1rem;
+    }
+}
+
+@media screen and (max-width: 361px) {
+    .projectsSection {
+        margin-left: 0.2rem;
+    }
+
+    .letters {
+        margin-left: -2.5rem;
+    }
+}
+
+@media screen and (max-width: 337px) {
+    .ncSection, .cdSection, .twdSection {
+        height: 32.25rem;
+        text-align: center;
+        margin: 0rem 0rem;
+        width: 16rem;
+    }
+
+    .gifsBottom > .gifText {
+        font-size: 12px;
+    }
+
+    .gifLeft > h4 {
+        font-size: 11px;
+        text-align: center;
+    }
+
+    .repoContainer {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 328px) {
+    .projectArrowSection {
+        margin-left: 85%;
+    }
+
+    @keyframes pArrow {
+        50% {margin-top: 1rem;}
+        50% {margin-top: -1rem;}
+    }
+
+    .letters {
+        margin-left: -1rem;
+    }
+}
+
+@media screen and (max-width: 292px) {
+    .letters > h1 {
+        font-size: 24px;
+    }
 }

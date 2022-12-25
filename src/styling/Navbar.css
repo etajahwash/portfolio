@@ -64,20 +64,3 @@
     50% {bottom: 10px;}
     100% {bottom: 25px;}
 }
-
-.navArrow {
-    color: white;
-    text-align: center;
-    text-align: center;
-    align-items: center;
-    justify-content: center;
-    margin-top: 0.3rem;
-    color: rgb(209, 59, 229);
-}
-
-@media screen and (max-width: 1151px) {
-
-    .navbarContainer {
-        overflow-x: hidden;
-    }
-}
