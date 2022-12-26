@@ -13,6 +13,7 @@ export default function AboutMe() {
   function handleShow() {
     setShow(!show)
   }
+
   return (
     <div className='aboutMeContainer' id='about' style={{
       backgroundImage: `url(${pink})`,
@@ -39,37 +40,37 @@ export default function AboutMe() {
             <div className='skillsOne'>
               <div>
               <img alt='mini language icons' className={show === false ? 'spacing aboutIcons upper' : 'aboutIcons upper'} onClick={handleShow} src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" />
-              {show === true ? (
+              {show === true || window.innerWidth < 425 ? (
               <p>JavaScript</p>
               ) : null }
               </div>
               <div>
               <img alt='mini language icons' className={show === false ? 'spacing aboutIcons upper' : 'aboutIcons upper'} onClick={handleShow} src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" />
-              {show === true ? (
+              {show === true || window.innerWidth < 425 ? (
               <p>React</p>                
               ) : null}
               </div>
               <div>
               <img alt='mini language icons' className={show === false ? 'spacing aboutIcons upper' : 'aboutIcons upper'} onClick={handleShow} src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" />
-              {show === true ? (
+              {show === true || window.innerWidth < 425 ? (
               <p>nodeJS</p>                
               ) : null}
               </div>
               <div>
               <img alt='mini language icons' className={show === false ? 'spacing aboutIcons upper' : 'aboutIcons upper'} onClick={handleShow} src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" />
-              {show === true ? (
+              {show === true || window.innerWidth < 425 ? (
               <p>MongoDB</p>                
               ) : null}
               </div>
               <div>
               <img alt='mini language icons' className={show === false ? 'spacing aboutIcons upper' : 'aboutIcons upper'} onClick={handleShow} src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-              {show === true ? (
+              {show === true || window.innerWidth < 425 ? (
               <p>Github</p>                
               ) : null}
               </div>
               <div>
               <img alt='mini language icons' className={show === false ? 'spacing aboutIcons upper' : 'aboutIcons upper'} onClick={handleShow} src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" />
-              {show === true ? (
+              {show === true || window.innerWidth < 425 ? (
               <p>Git</p>                
               ) : null}
               </div>
@@ -77,31 +78,31 @@ export default function AboutMe() {
             <div className='skillsTwo'>
               <div>
               <img alt='mini language icons' className={show === false ? 'spacing aboutIcons lower' : 'aboutIcons lower'} onClick={handleShow} src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg" />
-                {show === true ? (
+                {show === true || window.innerWidth < 425 ? (
                 <p>expressJS</p>                
               ) : null}
               </div>
               <div>
               <img alt='mini language icons' className={show === false ? 'spacing aboutIcons lower' : 'aboutIcons lower'} onClick={handleShow} src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" />
-                {show === true ? (
+                {show === true || window.innerWidth < 425 ? (
                 <p>CSS3</p>                
               ) : null}
               </div>
               <div>
               <img alt='mini language icons' className={show === false ? 'spacing aboutIcons lower' : 'aboutIcons lower'} onClick={handleShow} src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/materialui/materialui-original.svg" />
-                {show === true ? (
+                {show === true || window.innerWidth < 425 ? (
                 <p>Material UI</p>                
               ) : null}
               </div>
               <div>
               <img alt='mini language icons' className={show === false ? 'spacing aboutIcons lower' : 'aboutIcons lower'} onClick={handleShow} src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" />
-                {show === true ? (
+                {show === true || window.innerWidth < 425 ? (
                 <p>HTML5</p>                
               ) : null}
               </div>
               <div>
               <img alt='mini language icons' className={show === false ? 'spacing aboutIcons lower' : 'aboutIcons lower'} onClick={handleShow} src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg" />
-                {show === true ? (
+                {show === true || window.innerWidth < 425 ? (
                 <p>Bootstrap</p>                
               ) : null}
               </div>
@@ -119,49 +120,49 @@ export default function AboutMe() {
 
               <li>
               <img alt='mini language icons' className={show === false ? 'spacing aboutIcons upper' : 'aboutIcons upper'} onClick={handleShow} src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" />
-              {show === true ? (
+              {show === true || window.innerWidth < 425 ? (
               <p>JavaScript</p>
               ) : null }
               </li>
               <li>
               <img alt='mini language icons' className={show === false ? 'spacing aboutIcons upper' : 'aboutIcons upper'} onClick={handleShow} src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" />
-              {show === true ? (
+              {show === true || window.innerWidth < 425 ? (
               <p>React</p>                
               ) : null}
               </li>
               <li>
               <img alt='mini language icons' className={show === false ? 'spacing aboutIcons upper' : 'aboutIcons upper'} onClick={handleShow} src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" />
-              {show === true ? (
+              {show === true || window.innerWidth < 425 ? (
               <p>nodeJS</p>                
               ) : null}
               </li>
               <li>
               <img alt='mini language icons' className={show === false ? 'spacing aboutIcons upper' : 'aboutIcons upper'} onClick={handleShow} src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" />
-              {show === true ? (
+              {show === true || window.innerWidth < 425 ? (
               <p>MongoDB</p>                
               ) : null}
               </li>
               <li>
               <img alt='mini language icons' className={show === false ? 'spacing aboutIcons lower' : 'aboutIcons lower'} onClick={handleShow} src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg" />
-                {show === true ? (
+                {show === true || window.innerWidth < 425 ? (
                 <p>expressJS</p>                
               ) : null}
               </li>
               <li>
               <img alt='mini language icons' className={show === false ? 'spacing aboutIcons lower' : 'aboutIcons lower'} onClick={handleShow} src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" />
-                {show === true ? (
+                {show === true || window.innerWidth < 425 ? (
                 <p>CSS3</p>                
               ) : null}
               </li>
               <li>
               <img alt='mini language icons' className={show === false ? 'spacing aboutIcons lower' : 'aboutIcons lower'} onClick={handleShow} src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" />
-                {show === true ? (
+                {show === true || window.innerWidth < 425 ? (
                 <p>HTML5</p>                
               ) : null}
               </li>
               <li>
               <img alt='mini language icons' className={show === false ? 'spacing aboutIcons lower' : 'aboutIcons lower'} onClick={handleShow} src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg" />
-                {show === true ? (
+                {show === true || window.innerWidth < 425 ? (
                 <p>Bootstrap</p>                
               ) : null}
               </li>
