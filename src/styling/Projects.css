@@ -236,7 +236,7 @@
     }
 
     .secondnc {
-        display: grid;
+        display: initial;
     }
 
     .projectsSection {
@@ -373,6 +373,8 @@
         height: 32.25rem;
         text-align: center;
         margin: 0rem 0rem;
+        padding: 0;
+        width: 0rem;
         width: 20rem;
     }
 
@@ -406,6 +408,10 @@
     .letters > h1 {
         margin: 0rem 0.5rem;
         margin-bottom: 2.5rem;
+    }
+
+    .twdSection {
+        width: 20.8rem;
     }
 }
 

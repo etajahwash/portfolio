@@ -2,6 +2,7 @@ import React from 'react'
 import '../styling/Contact.css'
 import contact from '../imgs/pink3.jpg'
 import flower from '../imgs/violet.png'
+import bigFlower from '../imgs/bigFlower.png'
 import EastIcon from '@mui/icons-material/East';
 import { Link } from 'react-scroll';
 import KeyboardDoubleArrowUpIcon from '@mui/icons-material/KeyboardDoubleArrowUp';
@@ -31,7 +32,7 @@ export default function Contact() {
           <form className='contactForm' method='POST' action='https://formsubmit.co/etajahwash@gmail.com'>
             <div className='flowerSection'>
               <img alt='flower' src={flower} className='miniFlower' />
-              <img alt='flower' src={flower} className='flower' /><br/>
+              <img alt='flower' src={bigFlower} className='flower' /><br/>
               <img alt='flower' src={flower} className='miniFlower' />
             </div><br/>
             <input className='firstInput' type='text' name='name' placeholder='Name' required />
@@ -44,7 +45,7 @@ export default function Contact() {
     </div>
     <Link to="landing" spy={true} smooth={true} offset={0}>
         <div className='projectArrowSection contactBottomArrow'>
-            <KeyboardDoubleArrowUpIcon className='projectArrow' />
+            <KeyboardDoubleArrowUpIcon className='projectArrow contactAr' />
         </div>
         </Link>
     </div>
