@@ -77,7 +77,7 @@ export default function Projects() {
         </div>
         <div className="cdSection">
           <h1 className="projectTitle">CREAMY DELIGHTS</h1>
-          <a href='https://creamydelights.onrender.com' rel='noreferrer' target="_blank">
+          <a href='https://creamy-delights.onrender.com' rel='noreferrer' target="_blank">
           <div
             className="gifs"
             style={{
