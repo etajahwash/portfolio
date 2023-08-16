@@ -128,7 +128,7 @@ export default function AboutMe() {
               <img alt='mini language icons' className={show === false ? 'spacing aboutIcons upper' : 'aboutIcons upper'} onClick={handleShow} src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" />
               {show === true || window.innerWidth < 425 ? (
               <p>React</p>                
-              ) : null}
+              ) : null} 
               </li>
               <li>
               <img alt='mini language icons' className={show === false ? 'spacing aboutIcons upper' : 'aboutIcons upper'} onClick={handleShow} src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" />
