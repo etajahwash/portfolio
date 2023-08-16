@@ -3,7 +3,7 @@ import "../styling/Projects.css";
 import project from "../imgs/projects2.jpg";
 import gifs from "../imgs/creamydelights.gif";
 import twd from "../imgs/twd2.gif";
-import netflix from "../imgs/netflix.gif";
+import netflix from "../imgs/bleachgif2.gif";
 import { Link } from 'react-scroll'
 import KeyboardDoubleArrowDownIcon from '@mui/icons-material/KeyboardDoubleArrowDown';
 

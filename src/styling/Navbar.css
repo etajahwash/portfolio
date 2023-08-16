@@ -36,6 +36,7 @@
 
 .ulClick > li {
     cursor: pointer;
+    outline: 0;
 }
 
 .clear {

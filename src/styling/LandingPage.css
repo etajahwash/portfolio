@@ -19,17 +19,14 @@
 }
 
 .landingLetters {
-    background: -webkit-linear-gradient( rgb(86, 86, 232), rgb(145, 66, 225));
+    /* background: -webkit-linear-gradient( rgb(86, 86, 232), rgb(145, 66, 225));
     background-clip: text;
-    -webkit-text-fill-color: transparent;
+    -webkit-text-fill-color: transparent; */
     display: flex;
     text-align: center;
     justify-content: center;
     padding-top: 15rem;
-}
-
-.lph {
-    color: red;
+    color: rgb(210, 126, 225);
 }
 
 .landingLetters > h1 {

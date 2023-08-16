@@ -392,6 +392,10 @@
     .projectsSection {
         margin-left: 10%;
        }
+
+    .gbOne > .lowestHalf > .gifLeft > .projectUL {
+        margin-top: -0.6rem;
+    }
 }
 
 @media screen and (max-width: 422px) {

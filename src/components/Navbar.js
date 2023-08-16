@@ -55,7 +55,7 @@ export default function Navbar() {
             <Link to="projects" spy={true} smooth={true} offset={0}>Projects</Link>
             </li>
             <li>
-            <Link to="contact" spy={true} smooth={true} offset={0} className='contactClass'>Contact Me</Link>
+            <Link to="contact" spy={true} smooth={true} offset={0}>Contact Me</Link>
             </li>
         </ul>
         <div className='menuSection'>
