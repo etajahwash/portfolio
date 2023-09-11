@@ -120,7 +120,7 @@ export default function Projects() {
         </div>
         <div className="ncSection secondnc">
           <h1 className="projectTitle">NETFLIX CLONE</h1>
-          <a href="https://netflix-clone-34643.web.app/" rel='noreferrer' target="_blank">
+          <a href="https://netflix-clone-131.web.app/" rel='noreferrer' target="_blank">
           <div
             className="gifs"
             style={{
